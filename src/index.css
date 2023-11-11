@@ -1,27 +1,3 @@
-body {
-  margin: 0;
-  font-family: "Roboto", Arial !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.sky{
-  background-color: black;
-  color: #d5d4d4;
-  padding: 10px;
-  font-family: 'Open Sans', sans-serif !important;
-font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-}
-.des{
-  background-color: white;
-  color: black;
-  padding: 10px;
-  text-align: justify;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
