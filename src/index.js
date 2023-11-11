@@ -5,9 +5,6 @@ import App from './App';
 // import dotenv from 'dotenv';
 import reportWebVitals from './reportWebVitals';
 
-// // Load environment variables from .env
-// dotenv.config();
-// require('dotenv').config()
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
